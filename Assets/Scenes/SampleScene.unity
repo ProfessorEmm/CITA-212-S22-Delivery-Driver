@@ -136,6 +136,8 @@ GameObject:
   - component: {fileID: 188430080}
   - component: {fileID: 188430083}
   - component: {fileID: 188430084}
+  - component: {fileID: 188430086}
+  - component: {fileID: 188430085}
   m_Layer: 0
   m_Name: Old Reliable
   m_TagString: Untagged
@@ -271,6 +273,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &188430085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188430079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103dc9d631886074a8ae76894fb39a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fltSteerSpeed: 150
+  fltMoveSpeed: 5
+--- !u!114 &188430086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188430079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d879d1d6c88134f802268645ec644e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
