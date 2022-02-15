@@ -244,7 +244,6 @@ GameObject:
   m_Component:
   - component: {fileID: 188430082}
   - component: {fileID: 188430081}
-  - component: {fileID: 188430080}
   - component: {fileID: 188430083}
   - component: {fileID: 188430084}
   - component: {fileID: 188430086}
@@ -256,20 +255,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &188430080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188430079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 103dc9d631886074a8ae76894fb39a6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fltSteerSpeed: 100
-  fltMoveSpeed: 5
 --- !u!212 &188430081
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -410,6 +395,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d879d1d6c88134f802268645ec644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fltDestroyDelay: 0.5
+  clrHasPackageColor:
+    serializedVersion: 2
+    rgba: 4287201497
+  clrNoPackageColor:
+    serializedVersion: 2
+    rgba: 4294967295
 --- !u!1 &335110587
 GameObject:
   m_ObjectHideFlags: 0
